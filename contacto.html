@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio Filz</title>
+    <link rel="stylesheet" href="./css/contacto.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div><a href="./index.html">estudio<br>filz</a></div>
+            <ul>
+                <li><a href="./servicios.html">servicios<br>de fotografía</a></li>
+                <li><a href="./clases.html">clases<br>de fotografía</a></li>
+                <li><a href="./sobrefilz.html">sobre<br>marcia filz</a></li>
+                <li><a href="./portfolio.html"><br>portfolio</a></li>
+                <li class="paginaSeleccionada"><a href="./contacto.html"><br>contacto</a></li>
+            </ul>
+            <ul id="miniMenu">
+                <li>Menú
+                    <ul class="subMenu">    
+                        <li><a href="./servicios.html">servicios de fotografía</a></li>
+                        <li><a href="./clases.html">clases de fotografía</a></li>
+                        <li><a href="./sobrefilz.html">sobre marcia filz</a></li>
+                        <li><a href="./portfolio.html">portfolio</a></li>
+                        <li><a href="./contacto.html">contacto</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>  
+    <main>  
+        <form class="main__section">
+            <input class="nombreApellido"  type="text" name="nombre_apellido" placeholder="Nombre y Apellido">
+            <input class="email" type="email" name="correo" placeholder="Correo electronico">
+            <select name="motivo_de_la_consulta">
+                <option value="" selected disabled hidden>Motiva de consulta</option>
+                <option value="foto_producto">Fotografía de producto</option>
+                <option value="foto_eventos">Fotografía de eventos</option>
+                <option value="foto_clases">Clases de fotografía</option>
+                <option value="otro">Otro</option>
+            </select>
+            <textarea class="cajaConsulta"  name="mensaje" placeholder="Escriba aquí su mensaje"></textarea>
+            <button>Enviar</button>
+        </form>
+        <div class="main__section">
+            <h1>contacto</h1>
+            <p>marciafilz@gmail.com</p>
+            <p>+54 9 221 559 0340</p>
+            <p>La Plata, Buenos Aires, Argentina</p>
+        </div>
+        <picture>
+            <img src="assets/img/contacto.png" alt="imagen de contacto">
+        </picture>
+    </main>
+    <footer>
+        <a href="https://www.instagram.com/lumasacafotos/" target="_blank">instagram</a>
+        <a href="https://www.linkedin.com/in/marciafilz/" target="_blank" class="linkedin">linkedin</a>
+        <a href="https://www.behance.net/marciafilz" target="_blank">behance</a>
+    </footer>
+</body>
+</html>

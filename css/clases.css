@@ -1,0 +1,68 @@
+/*Import*/
+
+@import url(./styleGlobal.css);
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-column-gap: 2%;
+    justify-content: center;
+    margin-top: 9vh;
+}
+
+main div h1 {
+    font-size: 3.4em;
+    font-family: var(--tipo-titulos);
+}
+
+main div p {
+    font-family: var(--tipo-titulos);
+    font-size: 2.2em;
+}
+
+.textoDerecha {
+    text-align: right;
+}   
+
+.textoAbajo {
+    align-self: end;
+}
+
+.lineaArriba {
+    border-top: 2px solid black;
+}
+
+.texto {
+    font-family: var(--tipo-textos);
+    font-size: 1.6em;
+    text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+    main {    
+        grid-template-areas: 
+        "titulo"
+        "foto"
+        "subtitulo"
+        "texto";
+        grid-template-columns: 1fr;
+        
+    }   
+    main div h1 {
+        grid-area: titulo;
+    }
+
+    main div picture {
+        grid-area: foto;
+    }
+
+    main div p {
+        grid-area: subtitulo;
+
+    }
+
+    main > p {
+        grid-area: texto;
+    }
+
+}
