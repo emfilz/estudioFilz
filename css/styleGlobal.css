@@ -43,6 +43,12 @@ a:visited{
     color: #000000;
 }
 
+.textoGradiente p {
+    background: linear-gradient(black, gray);
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+
 /*Navbar*/
 
 header {
