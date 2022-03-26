@@ -43,15 +43,16 @@ a:visited{
     color: #000000;
 }
 
+/*
 .textoGradiente p {
     background: linear-gradient(black, gray);
     -webkit-background-clip: text;
     color: transparent;  
-}
+}*/
 
 /*Navbar*/
 
-header {
+/*header {
     margin-bottom: 20px;
 }
 
@@ -77,7 +78,7 @@ header nav ul li {
 #miniMenu {
     display: none;
 
-}
+}*/
 
 /*Footer*/
 
@@ -113,6 +114,7 @@ footer a:hover {
     font-weight: 600;
 }
 
+
 @media screen and (max-width: 720px) {
     body {
         width: 100vw;
@@ -146,6 +148,7 @@ footer a:hover {
     }
 }
 
+
 @media screen and (min-width: 721px) and (max-width: 1024px) {
     footer{
         padding-top: 2vh;
@@ -154,4 +157,33 @@ footer a:hover {
     main{
         padding-bottom: 3vh;
     }
+}
+
+/*BOOTSTRAP*/
+
+/*Navbar*/
+
+.navbar-brand {
+    text-align: left;
+    font-size: 1.8em;
+}
+
+header nav ul .nav-item {
+    font-size: 1.8em;
+    margin-left: 4vw;
+}
+
+/*a (links)*/
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:visited{
+    color: #000000 !important;
+}
+
+a:hover{
+    color: #000000 !important;
 }
