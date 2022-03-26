@@ -43,43 +43,6 @@ a:visited{
     color: #000000;
 }
 
-/*
-.textoGradiente p {
-    background: linear-gradient(black, gray);
-    -webkit-background-clip: text;
-    color: transparent;  
-}*/
-
-/*Navbar*/
-
-/*header {
-    margin-bottom: 20px;
-}
-
-header nav {
-    text-align: left;
-    font-size: 1.8em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-} 
-
-header nav ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-header nav ul li {
-   margin-left: 55px;
-}
-
-#miniMenu {
-    display: none;
-
-}*/
-
 /*Footer*/
 
 footer {
