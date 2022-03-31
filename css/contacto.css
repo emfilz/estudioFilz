@@ -15,7 +15,7 @@ main {
 main form {
     grid-area: form;
     font-family: var(--tipo-textos);
-    font-size: 0.7em;
+    font-size: 2em;
 }
 
 main div {
@@ -52,28 +52,6 @@ main form button {
     cursor: grab;
 }
 
-form div label, form fieldset{
-    font-family: var(--tipo-textos);
-    font-size: 0.7em;  
-}
-
-.form-check{
-    text-align: left !important;
-}
-
-.form-check label {
-    padding-left: 4vw;
-}
-
-.btn, .btn:hover {
-    background-color: #dddddd;
-    border: 0;
-    color: black;
-}
-.form-check-input:checked {
-    background-color: #dddddd;
-    border-color: #dddddd;
-}
 @media screen and (max-width: 600px) {
     main {    
         grid-template-areas: 

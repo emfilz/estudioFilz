@@ -13,26 +13,16 @@ main ul li {
     list-style-type: none;
     display: inline;
     font-family: var(--tipo-textos);
-    font-size: 2.2em;
-    margin-left: 0%;
-    padding-left: 4vw;
+    font-size: 2.8em;
+    margin-left: 0%;  
 }
+
+
 
 main article h1 {
     font-family: var(--tipo-titulos);
     text-align: left;
-    font-size: 2.8em;
-}
-
-.carousel-item img {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-div h1 {
-    font-family: var(--tipo-titulos);
-    text-align: center;
-    font-size: 2.8em;
+    font-size: 3.8em;
 }
 
 @media screen and (max-width: 720px) {
