@@ -1,0 +1,53 @@
+.principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 2%;
+    justify-content: center;
+    margin-top: 9vh;
+
+    div {
+        h1 {
+            font-size: 3.4em;
+            font-family: $tipo-titulos;
+        }
+
+        p {
+            font-family: $tipo-titulos;
+            font-size: 2.2em;
+        }
+    }
+}
+
+.textoDerecha {
+    text-align: right;
+}   
+
+.textoAbajo {
+    align-self: end;
+}
+
+.lineaAbajo {
+    border-bottom: 2px solid black;
+}
+
+.lineaArriba {
+    border-top: 2px solid black;
+}
+
+@media screen and (max-width: 720px) {
+    .principal {    
+        grid-template-columns: 1fr;
+        text-align: center;
+    }  
+    
+    .textoDerecha {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1024px) {
+    .principal {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 1vh;
+    }
+}

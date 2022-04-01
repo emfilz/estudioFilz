@@ -1,0 +1,41 @@
+footer {
+    text-align: center;
+    position: fixed;
+    width: 80vw;
+    background-color: #FFFFFF;
+    bottom: 0px;
+    padding-bottom: 9px;
+
+    a {
+        text-decoration: none;
+        font-size: 1.6em;
+
+        .linkedin {
+            margin-left: 10vw;
+            margin-right: 10vw;
+        }
+
+        &:visited {
+            color: #000;
+        }
+
+        &:hover {
+            color: #414141;
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+    footer {
+        padding-top: 5vh;
+        position: relative;
+        width: 80vw;
+
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1024px) {
+    footer{
+        padding-top: 2vh;
+    }
+}
