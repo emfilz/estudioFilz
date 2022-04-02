@@ -107,6 +107,8 @@ footer a:hover {
     font-weight: 600;
 }
 
+/* @media */
+
 @media screen and (max-width: 720px) {
     body {
         width: 100vw;

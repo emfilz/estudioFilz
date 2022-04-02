@@ -36,12 +36,6 @@ main div p {
     border-top: 2px solid black;
 }
 
-.textoGradiente {
-    background: linear-gradient(yellow,red);
-    -webkit-background-clip: text;
-    color: transparent;  
-  }
-
 .grayscale {
     transition: -webkit-filter 0.5s ease-in-out;
 }
@@ -49,7 +43,9 @@ main div p {
 .grayscale:hover {
     filter: none;
     -webkit-filter: grayscale(100%);
-    }
+}
+
+/* @media */
 
 @media screen and (max-width: 720px) {
     main {    

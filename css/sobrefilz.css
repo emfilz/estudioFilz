@@ -43,6 +43,8 @@ main p {
     text-align: justify;
 }
 
+/* @media */
+
 @media screen and (max-width: 720px) {
     main {   
         grid-template-areas: 

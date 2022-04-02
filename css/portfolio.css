@@ -17,13 +17,13 @@ main ul li {
     margin-left: 0%;  
 }
 
-
-
 main article h1 {
     font-family: var(--tipo-titulos);
     text-align: left;
     font-size: 3.8em;
 }
+
+/* @media */
 
 @media screen and (max-width: 720px) {
     main {    

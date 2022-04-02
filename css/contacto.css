@@ -52,6 +52,8 @@ main form button {
     cursor: grab;
 }
 
+/* @media */
+
 @media screen and (max-width: 600px) {
     main {    
         grid-template-areas: 
