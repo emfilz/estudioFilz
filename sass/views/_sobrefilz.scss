@@ -1,0 +1,50 @@
+.sobre {
+    display: grid;
+    grid-template-areas: 
+    "foto titulo"
+    "foto texto";
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 2%;
+    grid-row-gap: 20px;
+    justify-content: center;
+    margin-top: 9vh;
+
+    picture {
+        grid-area: foto;
+    }
+
+    div {
+        grid-area: titulo;
+
+        h1 {
+            font-size: 3.4em;
+            font-family: $tipo-titulos;
+        }
+
+        h2 {
+            font-size: 2.2em;
+            font-family: $tipo-titulos;
+            margin-top: -10px;
+            border-bottom: 2px solid black;
+            padding-right: 7px;
+            width: fit-content;
+        }
+    }
+
+    p {
+        font-family: $tipo-textos;
+        font-size: 1.6em;
+        grid-area: texto;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .sobre {   
+        grid-template-areas: 
+        "titulo"
+        "foto"
+        "texto"; 
+        grid-template-columns: 1fr;
+    }   
+}

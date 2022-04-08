@@ -1,0 +1,41 @@
+.portfolio {
+    ul {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 6vh;
+        margin-bottom: 6vh;
+
+        li {
+            list-style-type: none;
+            display: inline;
+            font-family: $tipo-textos;
+            font-size: 2.8em;
+            margin-left: 0%;  
+        }
+    }
+
+    article {
+        h1 {
+            font-family: $tipo-titulos;
+            text-align: left;
+            font-size: 3.8em;
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .portfolio {    
+        grid-template-columns: 1fr;
+
+        ul {
+            justify-content: space-between;
+            li {
+                font-size: 2em;
+            }
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
