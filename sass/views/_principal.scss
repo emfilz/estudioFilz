@@ -33,20 +33,6 @@
     border-top: 2px solid map-get($colores, negro);
 }
 
-<<<<<<< HEAD:css/home.css
-.grayscale {
-    transition: -webkit-filter 0.5s ease-in-out;
-}
-
-.grayscale:hover {
-    filter: none;
-    -webkit-filter: grayscale(100%);
-}
-
-/* @media */
-
-=======
->>>>>>> SASSI:sass/views/_principal.scss
 @media screen and (max-width: 720px) {
     .principal {    
         grid-template-columns: 1fr;
