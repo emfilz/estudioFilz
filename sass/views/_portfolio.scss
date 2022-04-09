@@ -8,7 +8,7 @@
         li {
             list-style-type: none;
             display: inline;
-            font-family: $tipo-textos;
+            font-family: map-get($fuentes, tipo-textos);
             font-size: 2.8em;
             margin-left: 0%;  
         }
@@ -16,7 +16,7 @@
 
     article {
         h1 {
-            font-family: $tipo-titulos;
+            font-family: map-get($fuentes, tipo-titulos);
             text-align: left;
             font-size: 3.8em;
         }

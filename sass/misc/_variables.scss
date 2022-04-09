@@ -1,4 +1,14 @@
-$color-fondo: #FFFFFF;
-$color-texto: #000000;
-$tipo-titulos: 'Prata', serif;
-$tipo-textos: 'Open Sans', sans-serif;
+$colores: (
+    blanco: #FFFFFF,
+    negro: #000000,
+    gris: #414141,
+    gris-claro: #DDDDDD,
+);
+
+$fuentes: (
+    tipo-titulos: 'Prata',
+    tipo-textos: 'Open Sans',
+);
+
+//$tipo-titulos: 'Prata', serif;
+//$tipo-textos: 'Open Sans', sans-serif;

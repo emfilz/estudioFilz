@@ -2,7 +2,7 @@ footer {
     text-align: center;
     position: fixed;
     width: 80vw;
-    background-color: #FFFFFF;
+    background-color: map-get($colores, blanco);
     bottom: 0px;
     padding-bottom: 9px;
 
@@ -16,11 +16,11 @@ footer {
         }
 
         &:visited {
-            color: #000;
+            color: map-get($colores, negro);
         }
 
         &:hover {
-            color: #414141;
+            color: map-get($colores, gris);
         }
     }
 }

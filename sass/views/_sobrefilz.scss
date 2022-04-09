@@ -18,21 +18,21 @@
 
         h1 {
             font-size: 3.4em;
-            font-family: $tipo-titulos;
+            font-family: map-get($fuentes, tipo-titulos);
         }
 
         h2 {
             font-size: 2.2em;
-            font-family: $tipo-titulos;
+            font-family: map-get($fuentes, tipo-titulos);
             margin-top: -10px;
-            border-bottom: 2px solid black;
+            border-bottom: 2px solid map-get($colores, negro);
             padding-right: 7px;
             width: fit-content;
         }
     }
 
     p {
-        font-family: $tipo-textos;
+        font-family: map-get($fuentes, tipo-textos);
         font-size: 1.6em;
         grid-area: texto;
         text-align: justify;

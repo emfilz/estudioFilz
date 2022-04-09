@@ -13,7 +13,7 @@
 
 /*Body*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans";
   font-size: 62.5%;
   padding: 5px 10% 20px 10%;
   min-height: 100vh; }
@@ -81,7 +81,7 @@ footer {
       margin-left: 10vw;
       margin-right: 10vw; }
     footer a:visited {
-      color: #000; }
+      color: #000000; }
     footer a:hover {
       color: #414141; }
 
@@ -103,9 +103,9 @@ footer {
   margin-top: 9vh; }
   .principal div h1 {
     font-size: 3.4em;
-    font-family: "Prata", serif; }
+    font-family: "Prata"; }
   .principal div p {
-    font-family: "Prata", serif;
+    font-family: "Prata";
     font-size: 2.2em; }
 
 .textoDerecha {
@@ -115,10 +115,10 @@ footer {
   align-self: end; }
 
 .lineaAbajo {
-  border-bottom: 2px solid black; }
+  border-bottom: 2px solid #000000; }
 
 .lineaArriba {
-  border-top: 2px solid black; }
+  border-top: 2px solid #000000; }
 
 @media screen and (max-width: 720px) {
   .principal {
@@ -140,20 +140,20 @@ footer {
   margin-top: 9vh; }
   .clases div h1 {
     font-size: 3.4em;
-    font-family: "Prata", serif; }
+    font-family: "Prata"; }
     .clases div h1 .lineaArriba {
-      border-top: 2px solid black; }
+      border-top: 2px solid #000000; }
   .clases div p {
-    font-family: "Prata", serif;
+    font-family: "Prata";
     font-size: 2.2em; }
     .clases div p .texto {
-      font-family: "Open Sans", sans-serif;
+      font-family: "Open Sans";
       font-size: 1.6em;
       text-align: justify; }
   .clases div .textoAbajo {
     align-self: end; }
   .clases p.texto {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans";
     font-size: 1.6em;
     text-align: justify; }
 
@@ -178,11 +178,11 @@ footer {
   margin-top: 9vh; }
   .contacto form {
     grid-area: form;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans";
     font-size: 2em; }
   .contacto div {
     grid-area: texto;
-    font-family: "Prata", serif;
+    font-family: "Prata";
     font-size: 2.2em;
     text-align: right; }
   .contacto picture {
@@ -193,9 +193,9 @@ footer {
     flex-direction: column;
     gap: 1vh; }
     .contacto form input, .contacto form span, .contacto form select, .contacto form textarea, .contacto form button {
-      font-family: "Open Sans", sans-serif;
+      font-family: "Open Sans";
       font-size: 0.7em;
-      background-color: #dddddd;
+      background-color: #DDDDDD;
       padding: 3%; }
     .contacto form textarea {
       min-height: 30vh; }
@@ -215,12 +215,12 @@ footer {
   .portfolio ul li {
     list-style-type: none;
     display: inline;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans";
     font-size: 2.8em;
     margin-left: 0%; }
 
 .portfolio article h1 {
-  font-family: "Prata", serif;
+  font-family: "Prata";
   text-align: left;
   font-size: 3.8em; }
 
@@ -242,16 +242,16 @@ footer {
   margin-top: 9vh; }
   .servicios div h1 {
     font-size: 3.4em;
-    font-family: "Prata", serif; }
+    font-family: "Prata"; }
     .servicios div h1.lineaAbajo {
-      border-bottom: 2px solid black; }
+      border-bottom: 2px solid #000000; }
   .servicios div p {
-    font-family: "Prata", serif;
+    font-family: "Prata";
     font-size: 2.2em; }
   .servicios div.textoDerecha {
     text-align: right; }
   .servicios p.texto {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans";
     font-size: 1.6em;
     text-align: justify; }
 
@@ -273,16 +273,16 @@ footer {
     grid-area: titulo; }
     .sobre div h1 {
       font-size: 3.4em;
-      font-family: "Prata", serif; }
+      font-family: "Prata"; }
     .sobre div h2 {
       font-size: 2.2em;
-      font-family: "Prata", serif;
+      font-family: "Prata";
       margin-top: -10px;
-      border-bottom: 2px solid black;
+      border-bottom: 2px solid #000000;
       padding-right: 7px;
       width: fit-content; }
   .sobre p {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans";
     font-size: 1.6em;
     grid-area: texto;
     text-align: justify; }
