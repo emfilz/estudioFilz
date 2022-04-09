@@ -80,8 +80,12 @@ footer {
   padding-bottom: 9px; }
   footer a {
     text-decoration: none;
-    font-size: 1.6em; }
+    font-size: 1.6em;
+    margin-left: 0vw;
+    margin-right: 0vw; }
     footer a.linkedin {
+      text-decoration: none;
+      font-size: 1.6em;
       margin-left: 10vw;
       margin-right: 10vw; }
     footer a:visited {

@@ -1,0 +1,6 @@
+@mixin linkFooter ($margenIzq: 0vw, $margenDer: 0vw) {
+    text-decoration: none;
+    font-size: 1.6em;
+    margin-left: $margenIzq;
+    margin-right: $margenDer;
+}

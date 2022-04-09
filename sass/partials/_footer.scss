@@ -7,12 +7,10 @@ footer {
     padding-bottom: 9px;
 
     a {
-        text-decoration: none;
-        font-size: 1.6em;
+        @include linkFooter;
 
         &.linkedin {
-            margin-left: 10vw;
-            margin-right: 10vw;
+            @include linkFooter(10vw, 10vw);
         }
 
         &:visited {
