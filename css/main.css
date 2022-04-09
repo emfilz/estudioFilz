@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Prata&display=swap");
+.titulo, .principal div h1, .clases div h1, .servicios div h1, .sobre div h1 {
+  font-size: 3.4em;
+  font-family: "Prata"; }
+
 /*Resets*/
 *,
 *::before,
@@ -101,9 +105,6 @@ footer {
   grid-column-gap: 2%;
   justify-content: center;
   margin-top: 9vh; }
-  .principal div h1 {
-    font-size: 3.4em;
-    font-family: "Prata"; }
   .principal div p {
     font-family: "Prata";
     font-size: 2.2em; }
@@ -138,11 +139,8 @@ footer {
   grid-column-gap: 2%;
   justify-content: center;
   margin-top: 9vh; }
-  .clases div h1 {
-    font-size: 3.4em;
-    font-family: "Prata"; }
-    .clases div h1 .lineaArriba {
-      border-top: 2px solid #000000; }
+  .clases div h1 .lineaArriba {
+    border-top: 2px solid #000000; }
   .clases div p {
     font-family: "Prata";
     font-size: 2.2em; }
@@ -240,11 +238,8 @@ footer {
   grid-column-gap: 2%;
   justify-content: center;
   margin-top: 9vh; }
-  .servicios div h1 {
-    font-size: 3.4em;
-    font-family: "Prata"; }
-    .servicios div h1.lineaAbajo {
-      border-bottom: 2px solid #000000; }
+  .servicios div h1.lineaAbajo {
+    border-bottom: 2px solid #000000; }
   .servicios div p {
     font-family: "Prata";
     font-size: 2.2em; }
@@ -271,9 +266,6 @@ footer {
     grid-area: foto; }
   .sobre div {
     grid-area: titulo; }
-    .sobre div h1 {
-      font-size: 3.4em;
-      font-family: "Prata"; }
     .sobre div h2 {
       font-size: 2.2em;
       font-family: "Prata";

@@ -17,8 +17,7 @@
         grid-area: titulo;
 
         h1 {
-            font-size: 3.4em;
-            font-family: map-get($fuentes, tipo-titulos);
+            @extend .titulo;
         }
 
         h2 {

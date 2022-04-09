@@ -7,8 +7,7 @@
 
     div {
         h1 {
-            font-size: 3.4em;
-            font-family: map-get($fuentes, tipo-titulos);
+            @extend .titulo;
             &.lineaAbajo {
                 border-bottom: 2px solid map-get($colores, negro);
             }
