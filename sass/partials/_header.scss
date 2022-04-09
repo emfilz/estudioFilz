@@ -1,0 +1,57 @@
+header {
+    margin-bottom: 20px;
+    
+    nav {
+        text-align: left;
+        font-size: 1.8em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            li {
+                margin-left: 55px;
+             }
+        }
+    } 
+}
+
+#miniMenu {
+    display: none;
+
+}
+
+.paginaSeleccionada {
+    font-weight: 600;
+}
+
+@media screen and (max-width: 720px) {
+    header {
+        nav {
+            ul {
+                display: none;
+            }
+        }
+    }
+
+    #miniMenu {
+        display: block;
+        text-align: right;
+
+        &:hover .subMenu {
+            margin: 10px 0px 0px 0px;
+            display: flex;
+            flex-direction: column;
+            display: block;
+        }
+    }
+    
+    .subMenu > li {
+        margin: 0px;
+    }
+}

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Prata&display=swap');
+
+@import './misc/variables';
+@import './misc/extends';
+@import './misc/mixins';
+@import './misc/normalize';
+
+@import './partials/header';
+@import './partials/footer';
+
+@import './views/principal';
+@import './views/clases';
+@import './views/contacto';
+@import './views/portfolio';
+@import './views/servicios';
+@import './views/sobrefilz';

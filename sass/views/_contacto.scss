@@ -1,0 +1,58 @@
+.contacto {
+    display: grid;
+    grid-template-areas:
+    "form texto"
+    "form foto";
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2%;
+    margin-top: 9vh;
+
+    form {
+        grid-area: form;
+        font-family: map-get($fuentes, tipo-textos);
+        font-size: 2em;
+    }
+
+    div {
+        grid-area: texto;
+        font-family: map-get($fuentes, tipo-titulos);
+        font-size: 2.2em;
+        text-align: right;
+    }
+
+    picture {
+        grid-area: foto;
+        text-align: right;  
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+        
+        input, & span, & select, & textarea, & button {
+            font-family: map-get($fuentes, tipo-textos);
+            font-size: 0.7em;
+            background-color: map-get($colores, gris-claro);
+            padding: 3%;
+        }
+
+        textarea {
+            min-height: 30vh;
+        }
+
+        button {
+            cursor: grab;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contacto {    
+        grid-template-areas: 
+        "form"
+        "texto"
+        "foto";
+        grid-template-columns: 1fr;
+    }   
+}

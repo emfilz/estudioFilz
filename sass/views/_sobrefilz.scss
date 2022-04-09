@@ -1,0 +1,49 @@
+.sobre {
+    display: grid;
+    grid-template-areas: 
+    "foto titulo"
+    "foto texto";
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 2%;
+    grid-row-gap: 20px;
+    justify-content: center;
+    margin-top: 9vh;
+
+    picture {
+        grid-area: foto;
+    }
+
+    div {
+        grid-area: titulo;
+
+        h1 {
+            @extend .titulo;
+        }
+
+        h2 {
+            font-size: 2.2em;
+            font-family: map-get($fuentes, tipo-titulos);
+            margin-top: -10px;
+            border-bottom: 2px solid map-get($colores, negro);
+            padding-right: 7px;
+            width: fit-content;
+        }
+    }
+
+    p {
+        font-family: map-get($fuentes, tipo-textos);
+        font-size: 1.6em;
+        grid-area: texto;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .sobre {   
+        grid-template-areas: 
+        "titulo"
+        "foto"
+        "texto"; 
+        grid-template-columns: 1fr;
+    }   
+}

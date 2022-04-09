@@ -1,0 +1,36 @@
+.servicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    grid-column-gap: 2%;
+    justify-content: center;
+    margin-top: 9vh;
+
+    div {
+        h1 {
+            @extend .titulo;
+            &.lineaAbajo {
+                border-bottom: 2px solid map-get($colores, negro);
+            }
+        }
+
+        p {
+            font-family: map-get($fuentes, tipo-titulos);
+            font-size: 2.2em;
+        }
+
+        &.textoDerecha {
+            text-align: right;
+        }   
+    }
+    p.texto {
+        font-family: map-get($fuentes, tipo-textos);
+        font-size: 1.6em;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .servicios {    
+        grid-template-columns: 1fr;
+    }   
+}
