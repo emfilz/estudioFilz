@@ -159,7 +159,7 @@ footer {
     font-size: 1.6em;
     text-align: justify; }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .clases {
     grid-template-areas: "titulo" "foto" "subtitulo" "texto";
     grid-template-columns: 1fr; }
@@ -204,7 +204,7 @@ footer {
     .contacto form button {
       cursor: grab; }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .contacto {
     grid-template-areas: "form" "texto" "foto";
     grid-template-columns: 1fr; } }
@@ -226,7 +226,7 @@ footer {
   text-align: left;
   font-size: 3.8em; }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 900px) {
   .portfolio {
     grid-template-columns: 1fr; }
     .portfolio ul {
@@ -254,7 +254,7 @@ footer {
     font-size: 1.6em;
     text-align: justify; }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 900px) {
   .servicios {
     grid-template-columns: 1fr; } }
 
@@ -283,7 +283,7 @@ footer {
     grid-area: texto;
     text-align: justify; }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 900px) {
   .sobre {
     grid-template-areas: "titulo" "foto" "texto";
     grid-template-columns: 1fr; } }
