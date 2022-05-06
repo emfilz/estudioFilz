@@ -61,5 +61,6 @@ main form button {
         "texto"
         "foto";
         grid-template-columns: 1fr;
-    }   
+        max-width: 95hw;
+    }
 }

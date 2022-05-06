@@ -207,7 +207,9 @@ footer {
 @media screen and (max-width: 900px) {
   .contacto {
     grid-template-areas: "form" "texto" "foto";
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+    .contacto picture img {
+      max-width: 95%; } }
 
 .portfolio ul {
   display: flex;

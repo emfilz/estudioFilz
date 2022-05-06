@@ -54,5 +54,11 @@
         "texto"
         "foto";
         grid-template-columns: 1fr;
+
+        picture {
+            img {
+                max-width: 95%;
+            }
+        }
     }   
 }
